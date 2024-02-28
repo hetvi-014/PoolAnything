@@ -4,9 +4,9 @@ import About from './About';
 
 const Footer = () => {
   return (
-    <footer className='bg-white dark:bg-gray-900'>
-      <div className='mx-auto w-full max-w-screen-xl'>
-        <div className='grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4'>
+    <footer className='bg-white  flex justify-center items-center dark:bg-gray-900'>
+      <div className='items-center mx-auto w-full max-w-screen-xl flex justify-center flex-col'>
+        <div className=' flex gap-36 lg:py-8 md:grid-cols-4'>
           <div>
             <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
               Top Routes
@@ -62,13 +62,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between'>
+        <div className='px-4 py-6 max-w-lg w-[100%]  md:flex md:items-center md:justify-between'>
           <a>
             <svg
               className='w-4 h-4'
               aria-hidden='true'
               xmlns='http://www.w3.org/2000/svg'
-              fill='currentColor'
+              fill='#fff'
               viewBox='0 0 8 19'
             >
               <path

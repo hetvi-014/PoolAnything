@@ -2,14 +2,14 @@ import React from 'react';
 
 const Advantages = () => {
   return (
-    <div className='bg-white py-12'>
+    <div className='bg-white py-12 '>
       <div className='flex flex-col-10 mx-20 '>
-        <div className=' mx-10  rounded-lg '>
+        <div className=' flex flex-col justify-center items-center mx-10  rounded-lg '>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             viewBox='0 0 24 24'
             fill='#A1AEB1'
-            className='w-6 h-6'
+            className='w-14 h-14'
           >
             <path d='M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875Z' />
             <path d='M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 0 0 1.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 0 0 1.897 1.384C6.809 12.164 9.315 12.75 12 12.75Z' />
@@ -21,7 +21,7 @@ const Advantages = () => {
             <h2>Your pick of rides at low prices</h2>
           </div>
 
-          <div className='text-gray-500'>
+          <div className=' text-center text-gray-500'>
             <h3>
               No matter where you’re going, by bus or carpool, find the perfect
               ride from our wide range of destinations and routes at low prices.
@@ -30,12 +30,12 @@ const Advantages = () => {
         </div>
 
         <div>
-          <div className=' mx-10'>
+          <div className=' flex flex-col justify-center items-center mx-10'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
               fill='currentColor'
-              className='w-6 h-6  text-slate-400'
+              className='w-14 h-14  text-slate-400'
             >
               <path
                 fillRule='evenodd'
@@ -48,7 +48,7 @@ const Advantages = () => {
               <h2>Trust who you travel with</h2>
             </div>
 
-            <div className='text-gray-500'>
+            <div className='text-center text-gray-500'>
               <h3>
                 We take the time to get to know each of our members and bus
                 partners. We check reviews, profiles and IDs, so you know who
@@ -60,12 +60,12 @@ const Advantages = () => {
         </div>
 
         <div>
-          <div className=' mx-10 '>
+          <div className=' flex flex-col justify-center items-center mx-10 '>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
               fill='currentColor'
-              className='w-6 h-6 text-slate-400'
+              className='w-14 h-14 text-slate-400'
             >
               <path
                 fillRule='evenodd'
@@ -78,7 +78,7 @@ const Advantages = () => {
               <h2>Scroll, click, tap and go!</h2>
             </div>
 
-            <div className='text-gray-500'>
+            <div className='text-center text-gray-500'>
               <h3>
                 Booking a ride has never been easier! Thanks to our simple app
                 powered by great technology, you can book a ride close to you in

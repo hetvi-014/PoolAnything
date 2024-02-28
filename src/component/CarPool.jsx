@@ -22,6 +22,7 @@ function CarPool() {
         {/* right */}
         <div className='flex  z-10 justify-center items-center w-[50%] px-4 flex-col '>
           <div className='flex flex-col items-center shadow-lg p-10 rounded-3xl gap-4 hover:shadow-2xl transition-all duration-200'>
+            <h2>Find Your Ride</h2>
             <div className='flex flex-col w-[100%] gap-4'>
               <TextField
                 className='bg-white'
