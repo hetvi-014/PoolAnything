@@ -1,29 +1,31 @@
-import React from 'react';
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import Header from './component/Header';
+import React, { useEffect, useState } from "react";
 
-import CarPool from './component/CarPool';
-import Footer from './component/Footer';
-
+import HomePage from "./HomePage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LoginPage from "./LoginPage";
+import SignupPage from "./SignUpPage";
+import Publish from "./Publish";
+import OfferAride from "./component/OfferAride";
+import Search from "./component/Search";
+import AdminPanel from "./Admin";
+import AdminLogin from "./AdminLogin";
+import MyRides from "./MyRides";
+//2pcj20bg2J17CSbCOYjY
+//O6YjcCwWMR0Dg1CllUlOcF7gzF1QDaNTz7WPU4s7RgA
 function App() {
   return (
-    <>
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
-        <main className=''>
-          {/* Header */}
-          <Header />
-          <h1 className='text-center font-extrabold text-6xl mt-14 mb-[-5%] '>
-            Your pick of rides at low prices
-          </h1>
-          {/* main */}
-          <CarPool />
-
-          {/* footer */}
-          <Footer />
-        </main>
-      </LocalizationProvider>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/Signup" element={<SignupPage />} />
+        <Route path="/publish" element={<Publish />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/admin" element={<AdminPanel />}></Route>
+        <Route path="/adminlogin" element={<AdminLogin />}></Route>
+        <Route path="/my-rides" element={<MyRides />}></Route>
+      </Routes>
+    </Router>
   );
 }
 

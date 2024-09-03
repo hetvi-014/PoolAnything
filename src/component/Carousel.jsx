@@ -13,16 +13,22 @@ export default function Carousel() {
     <div>
       <Slider {...settings}>
         <div className=''>
-          <img src='../../public/car/01.jpeg' alt='car img'></img>
+          <img src='../../public/car/05.jpg' alt='car img'></img>
         </div>
         <div className=''>
-          <img src='../../public/car/02.jpeg' alt=''></img>
+          <img src='../../public/car/06.jpg' alt='car img'></img>
         </div>
         <div className=''>
-          <img src='../../public/car/03.jpeg' alt=''></img>
+          <img src='../../public/car/08.jpg' alt='car img'></img>
         </div>
         <div className=''>
-          <img src='../../public/car/04.jpeg' alt=''></img>
+          <img src='../../public/car/07.jpg' alt='car img'></img>
+        </div>
+        <div className=''>
+          <img src='../../public/car/09.jpg' alt='car img'></img>
+        </div>
+        <div className=''>
+          <img src='../../public/car/11.jpg' alt='car img'></img>
         </div>
       </Slider>
     </div>
